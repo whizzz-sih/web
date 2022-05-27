@@ -1,0 +1,16 @@
+h1{
+    
+    margin: 2rem;
+    color: white;
+}
+
+
+
+#packages-parent{
+    /* background-color: #677A4E; */
+    margin-top: 95vh;
+    height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    max-width: 100%;
+}
