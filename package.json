@@ -1,7 +1,7 @@
 {
   "name": "whizzz",
   "version": "0.1.0",
-  "homepage": "https://whizzz-sih.github.io",
+  "homepage": "https://whizzz-sih.github.io/web",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.6.3",
