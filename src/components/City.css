@@ -80,3 +80,10 @@ button{
 .sizedbox{
     height: 3rem;
 }
+
+@media (max-width:600px) {
+
+.packagepar{
+    transform: scale(0.8);
+}
+}

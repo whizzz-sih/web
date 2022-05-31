@@ -29,3 +29,30 @@
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
+
+
+@media (max-width:600px) {
+    #search-title{
+        font-size: 2rem;
+        font-weight: 600;
+        color: white;
+        margin-left: 2rem;
+    }
+    
+    #input{
+        width: 20rem;
+        background-color: rgb(237, 237, 237);
+        height: 3rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    
+    #subtitle{
+        color: rgb(214, 211, 211);
+        font-size: 1rem;
+        font-style: italic;
+        margin-left: 2rem;
+    }
+
+}

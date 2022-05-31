@@ -28,3 +28,12 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+
+
+@media (max-width:600px) {
+    .cardcont{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
