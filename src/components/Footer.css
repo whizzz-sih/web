@@ -1,0 +1,26 @@
+.footer{
+    padding: 2rem;
+    background-color: #0E0D0C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc{
+    font-size: 1.3rem;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: 200;
+}
+
+.copyright{
+    font-size: 1rem;
+}
+
+.socialicons{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+}
+

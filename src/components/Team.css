@@ -1,0 +1,39 @@
+.contactcard{
+    margin: 2rem;
+    height: 13.5rem;
+    width: 11rem;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+
+.photo{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 0.5rem;
+    background-color: rgb(47, 47, 101);
+}
+
+.username{
+    margin-left: 0.5rem;
+}
+
+.gmail{
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.bottomdisp{
+    display: flex;
+    justify-content: space-between;
+    /* align-items:flex-start; */
+}
+
+#pfp{
+   height: 11rem;
+   width: 11rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    
+}
