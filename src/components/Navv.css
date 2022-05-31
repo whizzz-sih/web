@@ -1,5 +1,8 @@
 
 .nav {
+    
+    /* position: fixed; */
+    top: 0;
   height: 50px;
   width: 100%;
   background-color: #0E0D0C;
@@ -37,13 +40,21 @@
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 .nav > #nav-check {
   display: none;
 }
 
+.navtext{
+    /* font-size: 1rem; */
+    color: white;
+}
+
+a{
+    cursor: pointer;
+}
 @media (max-width:600px) {
   .nav > .nav-btn {
     display: inline-block;

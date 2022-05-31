@@ -31,11 +31,17 @@ h1{
         /* background-color: #677A4E; */
         padding: 2rem;
         margin-top: 95vh;
-        height: 150vh;
+        height: 180vh;
         /* max-height: 100%; */
         width: 100vw;
         max-width: 100%;
         /* background-color: pink; */
+    }
+
+    h1{
+    
+        text-align: center;
+        color: white;
     }
     }
 

@@ -189,3 +189,14 @@ input:checked + .slide-container .nav label { display: block; }
     font-weight: 600;
     font-style: italic;
 }
+
+
+@media (max-width:600px) {
+    .quote{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+}

@@ -84,6 +84,6 @@ button{
 @media (max-width:600px) {
 
 .packagepar{
-    transform: scale(0.8);
+    transform: scale(0.7);
 }
 }
