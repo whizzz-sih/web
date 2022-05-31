@@ -1,6 +1,8 @@
 #search-title{
     font-size: 3rem;
     font-weight: 600;
+    color: white;
+    margin-left: 2rem;
 }
 
 #input{
@@ -16,6 +18,7 @@
     color: rgb(214, 211, 211);
     font-size: 2rem;
     font-style: italic;
+    margin-left: 2rem;
 }
 
 .search-parent{

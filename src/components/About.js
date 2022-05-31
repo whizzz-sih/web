@@ -14,7 +14,7 @@ function About(){
     ABOUT US
 </h1>
 
-<p>{abouttext}</p>
+<p className='oho'>{abouttext}</p>
 
 <br></br>
 <h2>

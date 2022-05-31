@@ -14,3 +14,9 @@ h1{
     width: 100vw;
     max-width: 100%;
 }
+
+.cities{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}

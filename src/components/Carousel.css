@@ -12,6 +12,7 @@
 }
 
 .title{
+    /* color: white; */
     position: absolute;
     float: right;
     right: 0;
@@ -19,6 +20,7 @@
 }
 
 .carousel {
+    color: white;
     width: 100vw;
     max-width: 100%;
     object-fit: cover;

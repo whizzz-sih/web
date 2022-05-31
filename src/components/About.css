@@ -4,8 +4,18 @@
     /* background-color: ; */
 }
 
-p{
+.oho{
     font-size: 1.5rem;
+    color: white;
+    padding: 2rem;
+}
+
+p{
+
+        font-size: 1.5rem;
+        color: white;
+        /* padding: 2rem; */
+    
 }
 
 h2{
