@@ -7,6 +7,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
+import Call from './pages/Call';
 
 function App() {
 
@@ -16,10 +19,14 @@ function App() {
 
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Landing />}/>
+    <Route path="/" element={<Landing />}/>
+      <Route path="/web" element={<Landing />}/>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/tnc" element={<Terms />} />
+        <Route path="/privacypolicy" element={<Privacy />} />
+        <Route path="/call" element={<Call />} />
       {/* </Route> */}
     </Routes>
   </BrowserRouter>

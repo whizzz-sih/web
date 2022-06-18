@@ -1,0 +1,13 @@
+
+
+.ttitle, .ptitle{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.tdesc, .pdesc{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
