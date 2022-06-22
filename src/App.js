@@ -10,6 +10,7 @@ import Profile from './pages/Profile';
 import Terms from './pages/Terms';
 import Privacy from './pages/Privacy';
 import Call from './pages/Call';
+import Prerecorded from './pages/Prerecorded';
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
         <Route path="/tnc" element={<Terms />} />
         <Route path="/privacypolicy" element={<Privacy />} />
         <Route path="/call" element={<Call />} />
+        <Route path="/pre" element={<Prerecorded />} />
+
       {/* </Route> */}
     </Routes>
   </BrowserRouter>
