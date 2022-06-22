@@ -8,7 +8,6 @@ function Profile(){
     return (
         <>
         <Navbarr/>
-        
         <Pbody/>
         <Footer/>
         </>

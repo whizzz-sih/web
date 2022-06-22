@@ -1,0 +1,89 @@
+
+
+.citycard{
+    
+    z-index: 0;
+    width: 33rem;
+    height: 15rem;
+background-color: #677A4E;
+    border-radius: 0.5rem;
+    display: flex;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    position: relative;
+    top: -2.5rem;
+
+}
+.packagepar{
+    /* background-color: darkblue; */
+    width: 40rem;
+    height: 20rem;
+}
+
+.cardimg{
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(87, 68, 33);
+    border-radius: 0.5rem;
+}
+
+.citytitle{
+    opacity: 0.5;
+
+    float: right;
+    font-size: 5rem;
+    position: relative;
+    right: 0;
+    z-index: 0;
+}
+
+.cost{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.features{
+    font-size: 1rem;
+}
+
+button{
+    color: white;
+    height: 2.5rem;
+    width: 7rem;
+   /* border-radius:  */
+    background-color: black;
+}
+
+.bookbtn{
+    border-radius: 20rem;
+    /* left: 0; */
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.date{
+    font-size: 1.5rem;
+
+}
+
+.bookedon{
+    font-size: 0.7rem;
+}
+
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sizedbox{
+    height: 3rem;
+}
+
+@media (max-width:600px) {
+
+.packagepar{
+    transform: scale(0.7);
+}
+}

@@ -1,0 +1,53 @@
+.Detailcard{
+    
+    width: 18rem;
+    height: 5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    display: flex;
+    /* flex-direction: row;*/
+    justify-content: space-around; 
+    box-shadow: white 1px  1px 0.5px 0.5px;
+    position: relative;
+    top: -2.5rem;
+}
+.trips{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: white 0px 0px 0px 2px, white 0px 4px 6px -1px, white 0px 1px 0px inset;
+    background-color: #E5FFE1;
+   
+}
+.spend{
+    width: 4rem;
+    height: 3rem;
+    background-color: #CBE6FF;
+    border-radius: 0.5rem;
+    box-shadow: white 0px 0px 0px 2px, white 0px 4px 6px -1px, white 0px 1px 0px inset;
+  
+    
+   }
+.saved{
+    width: 4rem;
+    height: 3rem;
+    background-color:  #EBCAF0;
+    box-shadow: white 0px 0px 0px 2px, white 0px 4px 6px -1px, white 0px 1px 0px inset;
+    border-radius: 0.5rem;
+  
+   
+}
+.cardsamaan{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.subhead{
+    font-size: 1rem;
+}
