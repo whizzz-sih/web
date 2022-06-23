@@ -1,0 +1,9 @@
+.proceedpayment{
+    /* border: none; */
+    /* border-radius: 20px; */
+    width: 20rem;
+    height: 4rem;
+    background-color: black;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+}

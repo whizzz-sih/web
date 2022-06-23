@@ -1,0 +1,10 @@
+.allpackagepage{
+    min-height: 100vh;
+    background-color: #1B1919;
+}
+
+.packagewrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}

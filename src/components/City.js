@@ -13,7 +13,7 @@ return (
 
             <div className='cardcontent'>
 <div className='cost'>
-<p className='price'>INR 4,999</p><p className='perhead'>per head</p>
+<p className='cityprice'>INR 4,999</p><p className='perhead'>per head</p>
 </div>
 <p className='features'>
 • Time buffer 1 week<br/>• Personal guide<br/>• 360 degree virtual visit<br/>• 2 souvenir delivered to home

@@ -1,0 +1,16 @@
+
+
+.show{
+    /* width: 70vw; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.city, .show{
+    margin-top: -12rem;
+    transform: scale(0.8);
+}
