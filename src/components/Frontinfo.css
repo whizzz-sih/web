@@ -9,6 +9,7 @@
 
 }
 
+
 .infoimage{
     width: 45vw;
     height: 25vw;
@@ -19,6 +20,7 @@
 
 .flexfront{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -35,4 +37,25 @@
 
 .info{
     width: 30vw;
+}
+
+@media screen and (max-width: 500px) {
+    .flexfront{
+       
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .infoimage{
+        width: 72vw;
+        height: 40vw;
+        /* background-color: pink; */
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .info{
+        width: 72vw;
+    }
 }

@@ -1,0 +1,21 @@
+.filterbody{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.filterstuff{
+    font-weight: 300;
+    margin-bottom:-0rem;
+}
+
+.filterbtn{
+    border-radius: 3rem;
+    height: 3rem;
+    width: 10rem;
+}
+
+label{
+    opacity: 0.7;
+    font-weight: 300;
+}
+

@@ -7,6 +7,7 @@ import vidon from '../images/call/video.png'
 
 function Call (){
     return (
+        
         <>
         
         <div className="callpage">

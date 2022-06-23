@@ -28,6 +28,7 @@ function Forgot(){
         </div>
         </div>
         </div>
+        
         </>
     )
 

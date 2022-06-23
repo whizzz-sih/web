@@ -5,6 +5,36 @@
 
 .packagewrapper{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     
+}
+
+.pkgsearch{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+/* margin-right: 3rem; */
+}
+
+.searchpkg{
+ transform: scale(0.8);
+}
+
+#filt{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .packagewrapper{
+flex-direction: column;
+    }
+
+    .pkgsearch{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* margin-right: 3rem; */
+        }
+        
 }

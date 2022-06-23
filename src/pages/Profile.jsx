@@ -9,7 +9,6 @@ function Profile(){
         <>
         <Navbarr/>
         <Pbody/>
-        <Footer/>
         </>
     )
 }
