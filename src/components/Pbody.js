@@ -14,8 +14,8 @@ function Pbody() {
        </div>
        <div className='Pdetails'>
            <center>
-           <img src={temp} id='pfp' alt='lmao'/>
-           <h2> Cheems Gupta<br/><br/></h2>
+           <img  src={temp} id='pfp' alt='lmao'/>
+           <h2 className='Pname'> Cheems Singla</h2>
            <div className="detailbox">
             <Pbox trip="3" spent="15k" saved="lol"/>
            </div>
@@ -23,6 +23,7 @@ function Pbody() {
 
 
            </center>
+           <br/><br/>
            <h1>Your Trip</h1>
        
            
