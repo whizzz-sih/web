@@ -1,0 +1,11 @@
+
+.guidewrapper{
+    padding-left: 3rem;
+}
+.callguide{
+    width: 12rem;
+    height: 3rem;
+    background-color: #000000;
+    border-radius: 5rem; 
+}
+

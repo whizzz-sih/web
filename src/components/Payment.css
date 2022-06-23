@@ -1,0 +1,50 @@
+.paymentt{
+    font-size: 3rem;
+    font-weight: 600;
+    /* margin: 1rem; */
+    padding: 1rem;
+}
+
+
+.paymentpage{
+    background-color: #1B1919;
+    height: 100vh;
+    max-height: 100%;
+    margin: 0;
+}
+
+.detailsparent{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.paydetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 60vh;
+    width: 45vw;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.paybtn{
+    /* border: none; */
+    /* border-radius: 20px; */
+    width: 12rem;
+    height: 3rem;
+    background-color: #1B1919;
+    border-radius: 5rem
+}
+
+.price{
+    font-size: 4rem;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+}
+.topay{
+    font-size: 1.5rem;
+}

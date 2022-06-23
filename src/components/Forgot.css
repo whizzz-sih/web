@@ -1,0 +1,67 @@
+.pwdt{
+    font-size: 3rem;
+    font-weight: 600;
+    /* margin: 1rem; */
+    padding: 1rem;
+}
+
+
+.pwdpage{
+    background-color: #1B1919;
+    height: 100vh;
+    max-height: 100%;
+    margin: 0;
+}
+
+.pwdparent{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pwddetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 60vh;
+    width: 45vw;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.pwdbtn{
+    /* border: none; */
+    /* border-radius: 20px; */
+    width: 12rem;
+    height: 3rem;
+    background-color: #1B1919;
+    border-radius: 5rem
+}
+
+
+.one{
+display: block;
+}
+
+.two{
+    display: none;
+}
+.three{
+    display: none;
+}
+
+input[type=text] {
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+input:focus{
+    /* outline:1px solid royalblue; */
+    outline: none;
+    border:none;
+}

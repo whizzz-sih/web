@@ -1,0 +1,38 @@
+
+
+.infoimg{
+    /* background-image: url('https://wallpapercave.com/uwp/uwp2046336.jpeg'); */
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.3; */
+    border-radius: 1rem;
+
+}
+
+.infoimage{
+    width: 45vw;
+    height: 25vw;
+    /* background-color: pink; */
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.flexfront{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.cityname{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.cityprice{
+    font-size: 2rem;
+}
+
+.info{
+    width: 30vw;
+}

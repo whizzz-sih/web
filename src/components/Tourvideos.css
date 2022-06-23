@@ -1,0 +1,26 @@
+.tourvidswrapper{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.tourvids{
+    overflow: auto;
+    white-space: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.tourvid{
+    display: inline-block;
+    margin-right: 3rem;
+    height: 10rem;
+    width: 20rem;
+    background-color: black;
+    border-radius: 0.3rem;
+    margin-bottom: 5rem;
+    
+}
+
+.tourvids::-webkit-scrollbar {
+    display: none;
+  }
