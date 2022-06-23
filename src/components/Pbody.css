@@ -1,26 +1,20 @@
 .Pbody{
  background-color: black;
 }
+
 h1{
     
     margin: 2rem;
     color: white;
-    font-family: 'Poppins';
 }
-.seelink{
-    position: absolute;
-    right: 2%;
-    
-    color: white;
+#seelink{
+    color:aliceblue;
+    text-decoration: none;
 }
-
-
 #btn-profile{
     top:9%;
     right: 2%;
     position: absolute;
     border-radius: 12%;
-    
-    font-family: 'Poppins';
     line-height: 30px;
 }
