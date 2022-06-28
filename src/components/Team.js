@@ -1,6 +1,6 @@
 import './Team.css'
 import gmail from '../images/gmail.png'
-import temp from '../images/temp.png'
+// import temp from '../images/temp.png'
 
 
 
@@ -10,7 +10,7 @@ function Team(username, pfp, email){
         <>
         <div className='contactcard'>
 <div className='photo'>
-<img src={temp} id='pfp' alt='lmao'/>
+<img src={username.pfp} id='pfp' alt='lmao'/>
 </div>
 <div className='bottomdisp'>
 <p className='username'>{username.name}</p>
