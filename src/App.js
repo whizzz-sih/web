@@ -23,7 +23,7 @@ function App() {
   return (
 
 
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
     <Route path="/" element={<Landing />}/>
       <Route path="/web" element={<Landing />}/>
@@ -42,7 +42,7 @@ function App() {
 
       {/* </Route> */}
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 
     
    
