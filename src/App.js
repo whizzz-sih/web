@@ -3,7 +3,7 @@ import './App.css';
 import './index.css';
 import Landing from './pages/Landing'
 import Navbarr from './components/Navv.js';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom";
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
@@ -23,7 +23,7 @@ function App() {
   return (
 
 
-    <HashRouter>
+    <BrowserRouter>
     <Routes>
     <Route path="/" element={<Landing />}/>
       <Route path="/web" element={<Landing />}/>
@@ -42,7 +42,7 @@ function App() {
 
       {/* </Route> */}
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 
     
    
